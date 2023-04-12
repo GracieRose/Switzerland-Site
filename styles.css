@@ -1,0 +1,52 @@
+body {
+background-image: url(Images/sunrise2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+
+    
+    margin: auto;
+    width: 30vw;
+    text-align: center;
+}
+ul>li {
+border-style:ridge;
+display: inline-block;
+}
+.start {
+    text-align: center;
+    color: honeydew;
+    background-color: rgb(104, 39, 39);
+}
+ul>li>a {
+    color: black;
+    text-decoration: none;
+}
+
+ul>li>a:hover {
+    background-color:burlywood;
+}
+
+.medium {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+.home {
+display: inline-block;
+width: 25vw;
+margin-left: 3.5vw;
+margin-right: 3.5vw;
+}
+
+.text {
+background-color: rgb(161, 194, 223);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
